@@ -1,20 +1,20 @@
 class OpenAgent < Formula
   desc "Cost-ladder agentic CLI over OpenRouter"
   homepage "https://github.com/imhassla/open-agent"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/imhassla/open-agent/releases/download/v0.2.1/open-agent_0.2.1_darwin_arm64.tar.gz"
-      sha256 "83623f98ae88cb1cb1d4fa3f75c17d8473af846771282d2197c5646405945537"
+      url "https://github.com/imhassla/open-agent/releases/download/v0.2.2/open-agent_0.2.2_darwin_arm64.tar.gz"
+      sha256 "4711ad8e7ff1f7eb6c1ca38e5c79497dc29d07ee2c193e4fb3bcbedc26a8a9d3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/imhassla/open-agent/releases/download/v0.2.1/open-agent_0.2.1_linux_amd64.tar.gz"
-      sha256 "b09550e0f204a929442a313e33892c5c1786811d2f92deee889e7e3740b0b127"
+      url "https://github.com/imhassla/open-agent/releases/download/v0.2.2/open-agent_0.2.2_linux_amd64.tar.gz"
+      sha256 "aaecf8f22a089f0b708e1f2a930cb405a57ae47f212cdeab0ee4cb588f41c2e6"
     end
   end
 
@@ -23,11 +23,11 @@ class OpenAgent < Formula
   end
 
   def caveats
-    <<~EOS
+    <<~CAVEATS
       Set an OpenRouter API key (first match wins):
         export OPENROUTER_KEY=sk-or-...
         or put it in ~/.config/open-agent/.env
-    EOS
+    CAVEATS
   end
 
   test do
