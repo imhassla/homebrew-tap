@@ -1,20 +1,20 @@
 class OpenAgent < Formula
   desc "Cost-ladder agentic CLI over OpenRouter"
   homepage "https://github.com/imhassla/open-agent"
-  version "1.0.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/imhassla/open-agent/releases/download/v1.0.0/open-agent_1.0.0_darwin_arm64.tar.gz"
-      sha256 "04562168de74237bedaa58d3a908155c309829bef7d6c3cf44a3bd6d75450ed6"
+      url "https://github.com/imhassla/open-agent/releases/download/v0.3.0/open-agent_0.3.0_darwin_arm64.tar.gz"
+      sha256 "5a8f3dc49ee1e3d5dd9b69c91f5737f4970236be6e6b38b5b3ee444902d4db7e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/imhassla/open-agent/releases/download/v1.0.0/open-agent_1.0.0_linux_amd64.tar.gz"
-      sha256 "3e76cb635b50f1fde45858f8f76f41ae61838d48bbcae2e9ab435f812e64ae66"
+      url "https://github.com/imhassla/open-agent/releases/download/v0.3.0/open-agent_0.3.0_linux_amd64.tar.gz"
+      sha256 "870ca25050d8b7f33f862001e7d46fb8d594f48fb0d123988efa7936a79924b9"
     end
   end
 
